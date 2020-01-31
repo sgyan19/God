@@ -1,0 +1,8 @@
+C:\Users\Administrator\source\repos\God\Nwa\bin\Debug\Nwa.exe.config
+C:\Users\Administrator\source\repos\God\Nwa\bin\Debug\Nwa.exe
+C:\Users\Administrator\source\repos\God\Nwa\bin\Debug\Nwa.pdb
+C:\Users\Administrator\source\repos\God\Nwa\obj\Debug\Nwa.exe
+C:\Users\Administrator\source\repos\God\Nwa\obj\Debug\Nwa.pdb
+C:\Users\Administrator\source\repos\God\Nwa\bin\Debug\log4net.dll
+C:\Users\Administrator\source\repos\God\Nwa\obj\Debug\Nwa.csproj.CopyComplete
+C:\Users\Administrator\source\repos\God\Nwa\obj\Debug\Nwa.csprojAssemblyReference.cache

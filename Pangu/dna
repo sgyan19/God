@@ -1,0 +1,45 @@
+#include <stdlib.h>
+#include <stdio.h>
+
+int main(int srgc, char* srgv[]) {
+	int i=0,j=0,t=0;
+	char sn[1024];
+	FILE *p, *s;
+	while (srgv[0][i] != '\0') {
+		if (srgv[0][i] == '\\') {
+			t = i;
+		}
+		i++;
+	}
+    t++;
+	i = t;
+	while (srgv[0][i] != '\0') {
+		if (srgv[0][i] == '.') {
+			j = i;
+		}
+		sn[i - t] = srgv[0][i];
+		i++;
+	}
+	if (j) {
+		i = j;
+	}
+	i = i - t;
+	sn[i] = '\0';
+	p = fopen(sn, "r");
+	t = i;
+	i = rand();
+    j = abs(i)%36 + '0';
+    j = j <= '9' ? j : j + 8;
+	sn[t] = j;
+	sn[t + 1] = '\0';
+	s = fopen(sn, "w");
+	if (!p || !s) {
+		return -1;
+	}
+	while ((i = fread(sn, 1, 1024, p)) != 0) {
+		fwrite(sn, 1, i, s);
+	}
+	fclose(p);
+	fclose(s);
+	return 0;
+}

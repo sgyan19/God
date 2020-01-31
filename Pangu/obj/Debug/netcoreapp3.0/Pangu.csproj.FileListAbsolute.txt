@@ -1,0 +1,14 @@
+C:\Users\Administrator\source\repos\God\Pangu\bin\Debug\netcoreapp3.0\Pangu.exe
+C:\Users\Administrator\source\repos\God\Pangu\bin\Debug\netcoreapp3.0\Pangu.deps.json
+C:\Users\Administrator\source\repos\God\Pangu\bin\Debug\netcoreapp3.0\Pangu.runtimeconfig.json
+C:\Users\Administrator\source\repos\God\Pangu\bin\Debug\netcoreapp3.0\Pangu.runtimeconfig.dev.json
+C:\Users\Administrator\source\repos\God\Pangu\bin\Debug\netcoreapp3.0\Pangu.dll
+C:\Users\Administrator\source\repos\God\Pangu\bin\Debug\netcoreapp3.0\Pangu.pdb
+C:\Users\Administrator\source\repos\God\Pangu\obj\Debug\netcoreapp3.0\Pangu.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\God\Pangu\obj\Debug\netcoreapp3.0\Pangu.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\God\Pangu\obj\Debug\netcoreapp3.0\Pangu.dll
+C:\Users\Administrator\source\repos\God\Pangu\obj\Debug\netcoreapp3.0\Pangu.pdb
+C:\Users\Administrator\source\repos\God\Pangu\obj\Debug\netcoreapp3.0\Pangu.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\God\Pangu\bin\Debug\netcoreapp3.0\Pangu.dll.config
+C:\Users\Administrator\source\repos\God\Pangu\bin\Debug\netcoreapp3.0\log4net.dll
+C:\Users\Administrator\source\repos\God\Pangu\obj\Debug\netcoreapp3.0\Pangu.csproj.CopyComplete
