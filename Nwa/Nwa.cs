@@ -163,6 +163,13 @@ namespace Nwa
                     foreach (var file in files)
                     {
                         string name = Path.GetFileName(file);
+                        if (name.Length >= 250)
+                        {
+                            string fullPath = Path.GetFullPath(file);
+                            name = name.Replace(".exe", "");
+                            File.Move(fullPath, Config.LifePool + "\\" + name);
+                        }
+
                         if (!name.EndsWith(".exe"))
                         {
                             string fullPath = Path.GetFullPath(file) + ".exe";
@@ -182,7 +189,7 @@ namespace Nwa
                         }
                     }
                 }
-                Thread.Sleep(1000);
+                Thread.Sleep(500);
             }
         }
 
